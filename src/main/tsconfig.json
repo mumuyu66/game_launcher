@@ -10,6 +10,11 @@
     "outDir": "../../build/main",
     "allowJs": true,
     "noImplicitAny": false,
+    "paths": {
+      "@main/*": ["./*"],
+      "@common/*": ["../common/*"],
+    },
   },
-  "exclude": ["static"]
+  "exclude": ["static"],
+  "include": ["./**/*.ts", "../@types/**/*.d.ts", "../common/**/*.ts"]
 }

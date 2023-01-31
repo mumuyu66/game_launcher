@@ -1,0 +1,1 @@
+import SystemInformation from 'systeminformation'
